@@ -1,6 +1,6 @@
-const QRCode = require("qrcode");
+import QRCode from "qrcode";
 
-module.exports = (req, res) => {
+export default function handler(req, res) {
   if (req.method !== "GET") {
     return res.status(405).json({
       error: "Method not allowed",
@@ -21,4 +21,4 @@ module.exports = (req, res) => {
       qrcode: qrcode,
     });
   });
-};
+}
