@@ -1,0 +1,26 @@
+body {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.qr-title {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.qr-title-span {
+  color: blue;
+}
+
+img {
+  border: 5px solid black;
+  border-radius: 3px;
+}
